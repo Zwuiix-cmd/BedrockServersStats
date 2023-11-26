@@ -21,7 +21,7 @@ Server address: 45.145.167.106:19200
 | Request | Response                | Description |
 | :-------- | :------- | :---- |
 | `/api/xbox/xuid/:gamertag` | `string` | `Get xuid with gamertag.`
-| `/api/xbox/profile/:gamertag` | `string` | `Get gamertag information.`
+| `/api/xbox/profile/:gamertag` | `json` | `Get gamertag information.`
 
 #### Query
 | Request | Response                | Description |
